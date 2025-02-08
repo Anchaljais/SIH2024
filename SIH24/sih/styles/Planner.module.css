@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Eras ITC';
+    src: url('/fonts/erasitc.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    background-color: #121212; /* Darker background */
+    color: white;
+    min-height: 100vh;
+    font-family: 'Eras ITC', sans-serif;
+    font-size: 14px; /* Slightly larger text */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* Adjusted padding */
+    background-color: #1a1a1a; /* Darker header background */
+    border-bottom: 1px solid #2e2e2e;
+}
+
+.tabs button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 6px 10px; /* Adjusted padding */
+    cursor: pointer;
+    font-size: 14px; /* Slightly larger text */
+}
+
+.activeTab {
+    background-color: #2e2e2e !important; /* Darker active tab */
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px; /* Adjusted padding */
+}
+
+.dayColumn {
+    flex: 1;
+    margin: 0 6px; /* Adjusted margin */
+    background-color: #1a1a1a; /* Darker card background */
+    border-radius: 5px;
+    padding: 10px; /* Adjusted padding */
+}
+
+.today {
+    border: 1px solid yellow;
+}
+
+.dayHeader {
+    text-align: center;
+    font-size: 16px; /* Slightly larger header text */
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.taskArea {
+    height: calc(80vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.noTasks {
+    text-align: center;
+    color: #777; /* Darker no tasks text */
+    font-size: 13px; /* Slightly larger text */
+}
+
+.newTaskInput {
+    background-color: #1a1a1a; /* Darker input background */
+    border: 1px solid #2e2e2e;
+    border-radius: 5px;
+    padding: 10px; /* Adjusted padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.newTaskInput input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 14px; /* Slightly larger input text */
+    padding: 6px; /* Adjusted padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    outline: none;
+}
+
+.newTaskActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.newTaskActions button {
+    background-color: #2e2e2e; /* Darker button background */
+    color: white;
+    border: none;
+    padding: 6px 10px; /* Adjusted padding */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px; /* Slightly larger button text */
+    outline: none;
+}
+
+.dateIndicator {
+    color: #777; /* Darker date indicator */
+    font-size: 12px; /* Slightly larger text */
+}
+
+.taskItem {
+    background-color: #2e2e2e; /* Darker task item background */
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    padding: 10px; /* Adjusted padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taskItem input {
+    margin-right: 10px; /* Adjusted margin */
+}
+
+.taskItem span {
+    flex: 1;
+}
+
+.taskItem button {
+    background-color: #2e2e2e; /* Darker button background */
+    color: white;
+    border: none;
+    padding: 6px 10px; /* Adjusted padding */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px; /* Slightly larger button text */
+    outline: none;
+}
+
+.taskItem button:hover {
+    background-color: #3e3e3e; /* Darker hover effect */
+}
+
+.taskItem .edit-btn {
+    margin-right: 6px; /* Adjusted margin */
+}
+
+.edit-mode {
+    background-color: #2e2e2e; /* Darker edit mode background */
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
+    padding: 10px; /* Adjusted padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-mode input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 14px; /* Slightly larger input text */
+    padding: 6px; /* Adjusted padding */
+    margin-bottom: 10px; /* Adjusted margin */
+    outline: none;
+}
+
+.edit-mode button {
+    background-color: #2e2e2e; /* Darker button background */
+    color: white;
+    border: none;
+    padding: 6px 10px; /* Adjusted padding */
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px; /* Slightly larger button text */
+    outline: none;
+}
+
+.edit-mode button:hover {
+    background-color: #3e3e3e; /* Darker hover effect */
+}
